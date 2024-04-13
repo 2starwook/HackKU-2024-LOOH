@@ -1,2 +1,5 @@
 *__pycache__*
+# python related files
+
 *.venv*
+# virtual environment related files
