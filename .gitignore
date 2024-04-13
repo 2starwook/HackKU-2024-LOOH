@@ -3,3 +3,4 @@
 
 *.venv*
 # virtual environment related files
+.DS_Store
