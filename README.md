@@ -17,3 +17,6 @@
     ```
     python main.py
     ```
+
+## Reference
+- [Kaggle: Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset?resource=download)
