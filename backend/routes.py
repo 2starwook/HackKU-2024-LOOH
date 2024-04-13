@@ -12,17 +12,16 @@ def home():
 @routes_bp.route('/predict', methods=['GET'])
 def predict():
     """
-    4,2,3,yes,no,no,no,yes,2,yes,furnished
     args: 
-        bedrooms: Number of bedrooms
-        bathrooms: Number of bathrooms
-        stories: Number of stories
-        mainroad: Weather connected to main road
-        guestroom: Weather has a guest room
-        basement: Weather has a basement
-        hotwaterheating: Weather has a hotwater heater
-        airconditioning: Weather has an airconditioning
-        parking: Number of parkings
+        int bedrooms: Number of bedrooms (1 ~ 6)
+        int bathrooms: Number of bathrooms (1 ~ 4)
+        int stories: Number of stories (1 ~ 4)
+        int mainroad: Weather connected to main road (0 / 1)
+        int guestroom: Weather has a guest room (0 / 1)
+        int basement: Weather has a basement (0 / 1)
+        int hotwaterheating: Weather has a hotwater heater (0 / 1)
+        int airconditioning: Weather has an airconditioning (0 / 1)
+        int parking: Number of parkings (0 ~ 3)
     """
     global model
     model: RidgeCV
