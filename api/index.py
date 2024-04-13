@@ -7,7 +7,7 @@ CORS(app, resources={r"/api/*": {"origins": ["http://127.0.0.1:3000", "http://lo
 
 @app.route("/api/python")
 def python_api():
-    return "Some data"
+    return "[SERVER ACCESSED]"
 
 if __name__ == "__main__":
     app.run(port=5328)
