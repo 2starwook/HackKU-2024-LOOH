@@ -1,5 +1,5 @@
 from flask import Blueprint, request, Response, jsonify
-from sklearn.linear_model import RidgeCV
+# from sklearn.linear_model import RidgeCV
 
 
 routes_bp = Blueprint('routes', __name__, url_prefix='/')
