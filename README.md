@@ -11,10 +11,16 @@
    source <name of virtual environment>/bin/activate
    ```
 3. Install python dependencies
-   ```
-   pip install -r requirements.txt
-   ```
+    ```
+    pip install -r requirements.txt
+    ```
 4. Run backend
+    ```
+    python main.py
+    ```
+
+## Reference
+- [Kaggle: Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset?resource=download)
    ```
    python main.py
    ```
