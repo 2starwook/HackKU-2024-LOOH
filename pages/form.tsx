@@ -22,6 +22,7 @@ const Form: React.FC = () => {
         { value: 1, label: "1 Bedroom" },
         { value: 2, label: "2 Bedroom" },
         { value: 3, label: "3 Bedroom" },
+        { value: 4, label: "4 Bedroom" },
       ],
     },
     {
@@ -102,11 +103,11 @@ const Form: React.FC = () => {
   ];
 
   const [formData, setFormData] = useState<Record<string, number | "">>({});
-  const [isSubmitDisabled, setIsSubmitDisabled] = useState(true);
+  // const [isSubmitDisabled, setIsSubmitDisabled] = useState(true);
 
-  useEffect(() => {
-    setIsSubmitDisabled(Object.values(formData).some((value) => value === -1));
-  }, [formData]);
+  // useEffect(() => {
+  //   setIsSubmitDisabled(Object.values(formData).some((value) => value === -1));
+  // }, [formData]);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLSelectElement>,
@@ -122,10 +123,10 @@ const Form: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if (!Object.values(formData).every((value) => value !== "")) {
-      console.error("모든 필드를 올바르게 선택해주세요.");
-      return;
-    }
+    // if (!Object.values(formData).every((value) => value !== "")) {
+    //   console.error("enter all fields");
+    //   return;
+    // }
 
     const queryParams = new URLSearchParams();
     Object.entries(formData).forEach(([key, value]) =>
@@ -155,15 +156,14 @@ const Form: React.FC = () => {
   };
 
   return (
-    <div className="bg-zinc-200 dark:bg-zinc-900 pt-5 pb-5 ">
+    <div className="bg-zinc-100 dark:bg-zinc-900 pt-5 pb-5 justify-center">
       <form
-        className="max-w-lg mx-auto pt-5 pb-5 space-y-4"
+        className="max-w-lg mx-auto pt-5 pb-5 space-y-4 justify-center"
         onSubmit={handleSubmit}
       >
         {questions.map((question, index) => (
           <div key={question.key}>
             {" "}
-            {/* 인덱스 대신 질문의 key를 사용합니다. */}
             <label
               htmlFor={`dropdown-${question.key}`}
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -184,13 +184,14 @@ const Form: React.FC = () => {
             </select>
           </div>
         ))}
-        <button
-          type="submit"
-          className="submit-button"
-          disabled={isSubmitDisabled}
-        >
-          FIND!
-        </button>
+        <div className="flex justify-center">
+          <button
+            type="submit"
+            className="submit-button cursor-pointer inline-block text-white bg-yellow-500 hover:bg-yellow-600 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:focus:ring-yellow-900"
+          >
+            Get Estimate
+          </button>
+        </div>
       </form>
     </div>
   );
