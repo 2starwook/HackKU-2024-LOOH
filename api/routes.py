@@ -1,4 +1,6 @@
-from flask import Blueprint, request, Response, jsonify
+import numpy as np
+from flask import Blueprint, request, jsonify
+from api import get_model
 # from sklearn.linear_model import RidgeCV
 
 
@@ -25,6 +27,8 @@ def predict():
     """
     global model
     # model: RidgeCV
+    if "model" not in globals():
+        model = get_model()
     bedrooms = request.args.get('bedrooms', type=int)
     bathrooms = request.args.get('bathrooms', type=int)
     stories = request.args.get('stories', type=int)
@@ -34,11 +38,11 @@ def predict():
     hotwaterheating = request.args.get('hotwaterheating', type=int)
     airconditioning = request.args.get('airconditioning', type=int)
     parking = request.args.get('parking', type=int)
-    predicted_price = model.predict([
+    predicted_price = model.predict(np.reshape([
         bedrooms, bathrooms, stories, mainroad, mainroad, guestroom, basement, 
         hotwaterheating, airconditioning, parking
-    ])
+    ], (-1, 10)))
     data = {
-        'price': predicted_price
+        'price': predicted_price[0]
     }
-    return Response(jsonify(data), mimetype="application/json")
+    return jsonify(data)
