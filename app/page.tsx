@@ -15,7 +15,9 @@ export default function Home() {
           디스크립션
         </p>
         <Link href="/form" passHref>
-          <span className="mt-2 cursor-pointer">GOGOGOGO</span>
+          <button className="mt-2 px-4 py-2 bg-blue-500 text-white font-bold text-lg rounded-lg hover:bg-blue-700 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 cursor-pointer">
+            GOGOGOGO
+          </button>
         </Link>
       </div>
     </main>
