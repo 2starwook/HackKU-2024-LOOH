@@ -15,8 +15,11 @@ export default function Home() {
           디스크립션
         </p>
         <Link href="/form" passHref>
-          <button className="mt-2 px-4 py-2 bg-blue-500 text-white font-bold text-lg rounded-lg hover:bg-blue-700 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 cursor-pointer">
-            GOGOGOGO
+          <button
+            type="button"
+            className="text-white bg-yellow-500 hover:bg-yellow-600 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900"
+          >
+            GOGOGO
           </button>
         </Link>
       </div>
