@@ -22,11 +22,6 @@
     python main.py
     ```
 
-## Reference
-- [Kaggle: Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset?resource=download)
-   ```
-   python main.py
-   ```
 
 ## Local Dev Environment Setup (Mac)
 
@@ -52,3 +47,7 @@
    ```
    http://127.0.0.1:3000
    ```
+
+## Reference
+- [Kaggle: Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset)
+- [Kaggle: USA Real Estate Dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
