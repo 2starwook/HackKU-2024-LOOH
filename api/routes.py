@@ -24,7 +24,7 @@ def predict():
         int parking: Number of parkings (0 ~ 3)
     """
     global model
-    model: RidgeCV
+    # model: RidgeCV
     bedrooms = request.args.get('bedrooms', type=int)
     bathrooms = request.args.get('bathrooms', type=int)
     stories = request.args.get('stories', type=int)
