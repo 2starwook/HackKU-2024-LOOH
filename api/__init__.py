@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_cors import CORS  # Remove in production, just allows to run and access on local device
 
-from backend.config import Config
+from api.config import Config
 
 
 ### initializing app###
@@ -11,7 +11,7 @@ def create_app():
     app.config.from_object(Config())
     # Temporary features for dev. environment
     CORS(app)
-    from backend.routes import routes_bp
+    from api.routes import routes_bp
 
     app.register_blueprint(routes_bp)
 
