@@ -1,3 +1,4 @@
+import pickle
 from flask import Flask
 from flask_cors import CORS  # Remove in production, just allows to run and access on local device
 
@@ -16,3 +17,6 @@ def create_app():
     app.register_blueprint(routes_bp)
 
     return app
+
+def get_model():
+    return pickle.load(open('./api/data/model','rb'))
