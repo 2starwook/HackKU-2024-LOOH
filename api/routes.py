@@ -1,5 +1,5 @@
 from flask import Blueprint, request, Response, jsonify
-from sklearn.linear_model import RidgeCV
+# from sklearn.linear_model import RidgeCV
 
 
 routes_bp = Blueprint('routes', __name__, url_prefix='/')
@@ -24,7 +24,7 @@ def predict():
         int parking: Number of parkings (0 ~ 3)
     """
     global model
-    model: RidgeCV
+    # model: RidgeCV
     bedrooms = request.args.get('bedrooms', type=int)
     bathrooms = request.args.get('bathrooms', type=int)
     stories = request.args.get('stories', type=int)

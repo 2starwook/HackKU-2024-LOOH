@@ -1,5 +1,8 @@
 # HackKU2024
 
+## Dependency
+- Python: 3.9.18
+
 ## How to set up / initiate backend (Mac)
 
 1. Create a virtual environment
