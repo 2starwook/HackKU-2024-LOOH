@@ -3,6 +3,10 @@
 
 *.venv*
 # virtual environment related files
+
+/api/log/*
+# temporary log files
+
 .DS_Store
 /venv
 
