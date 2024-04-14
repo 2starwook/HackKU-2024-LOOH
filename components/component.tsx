@@ -25,8 +25,8 @@ function Component() {
   }, []);
 
   return (
-    <div>
-      <p>SERVER STATUS CHECK</p>
+    <div className="flex flex-col items-center justify-center">
+      <h1 className="text-2xl">Welcome!</h1>
       <div dangerouslySetInnerHTML={{ __html: message }}></div>
     </div>
   );

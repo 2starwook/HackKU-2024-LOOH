@@ -9,7 +9,7 @@ routes_bp = Blueprint('routes', __name__, url_prefix='/')
 
 @routes_bp.route('/', methods=('GET', 'POST'))
 def home():
-    return "Welcome to Server"
+    return "<p>Connected to Server ✓</p>"
 
 @routes_bp.route('/predict', methods=['GET'])
 def predict():
