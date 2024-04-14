@@ -1,5 +1,7 @@
 "use client";
 
+import "../app/globals.css";
+
 import React, { useEffect, useState } from "react";
 
 function Component() {
@@ -24,7 +26,7 @@ function Component() {
 
   return (
     <div>
-      <p>API로부터 받은 메시지:</p>
+      <p>SERVER STATUS CHECK</p>
       <div dangerouslySetInnerHTML={{ __html: message }}></div>
     </div>
   );
