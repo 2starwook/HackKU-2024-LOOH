@@ -1,10 +1,10 @@
+import pickle
 import numpy as np
 from flask import Blueprint, request, jsonify
-from api import get_model
 # from sklearn.linear_model import RidgeCV
 # from api.config import App_config
 
-
+model = pickle.load(open('./api/data/model','rb'))
 routes_bp = Blueprint('routes', __name__, url_prefix='/')
 
 
@@ -26,10 +26,7 @@ def predict():
         int airconditioning: Weather has an airconditioning (0 / 1)
         int parking: Number of parkings (0 ~ 3)
     """
-    global model
     # model: RidgeCV
-    if "model" not in globals():
-        model = get_model()
     try:
         bedrooms = request.args.get('bedrooms', type=int)
         bathrooms = request.args.get('bathrooms', type=int)
