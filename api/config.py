@@ -22,7 +22,7 @@ class Config:
 class App_config:
   _self = None
 
-  PROJECT_DIR = "HackKU2024"
+  PROJECT_DIR = "HackKU-2024-LOOH"
   """Name of project directory"""
 
   API_DIR = "api"
@@ -68,7 +68,7 @@ class App_config:
   def _get_project_dir_path(self):
     dir_list = os.path.abspath(__file__).split(sep)
     for i, s in reversed(list(enumerate(dir_list))):
-      if s == App_config.PROJECT_DIR:
+      if App_config.PROJECT_DIR in s:
         project_dir_path = sep.join(dir_list[:i+1])
         break
     return project_dir_path
