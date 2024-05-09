@@ -74,6 +74,9 @@ This project is to predict the U.S. housing price using Kaggle Housing price dat
    http://127.0.0.1:3000
    ```
 
+## Contributor
+[Isaac Lee](https://github.com/2starwook), [Peter Lee](https://github.com/yiwoduf)
+
 
 ## Reference
 - [Kaggle: Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset)
