@@ -23,12 +23,15 @@ This project is to predict the U.S. housing price using Kaggle Housing price dat
 * [![Next][Next.js]][Next-url]
 * [![Tailwind][Tailwind.js]][Tailwind-url]
 
+
+## Getting Started
+
 ### Dependency
 - Python: 3.9.18
 
-## Getting Started
-### How to set up / initiate backend (Mac)
+### Installation (Mac)
 
+#### Backend
 1. Create a virtual environment
    ```
    python3.9 -m venv <name of virtual environment>
@@ -47,8 +50,7 @@ This project is to predict the U.S. housing price using Kaggle Housing price dat
     ```
 
 
-### Local Dev Environment Setup (Mac)
-
+#### Frontend (Mac)
 1. Install Node Packages
 
    ```
