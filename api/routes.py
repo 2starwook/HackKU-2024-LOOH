@@ -47,4 +47,6 @@ def predict():
     data = {
         'price': predicted_price[0]
     }
-    return jsonify(data)
+    response = jsonify(data)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
