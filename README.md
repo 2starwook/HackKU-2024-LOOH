@@ -73,15 +73,15 @@ This project is to predict the U.S. housing price using Kaggle Housing price dat
 - [Kaggle: USA Real Estate Dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/2starwook/HackKU-2024-LOOH.svg?style=for-the-badge
 [contributors-url]: https://github.com/2starwook/HackKU-2024-LOOH/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/2starwook/HackKU-2024-LOOH.svg?style=for-the-badge
 [forks-url]: https://github.com/2starwook/HackKU-2024-LOOH/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/2starwook/HackKU-2024-LOOH.svg?style=for-the-badge
 [stars-url]: https://github.com/2starwook/HackKU-2024-LOOH/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/2starwook/HackKU-2024-LOOH.svg?style=for-the-badge
 [issues-url]: https://github.com/2starwook/HackKU-2024-LOOH/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/2starwook/HackKU-2024-LOOH.svg?style=for-the-badge
 [license-url]: https://github.com/2starwook/HackKU-2024-LOOH/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/seonguk-isaac-lee/
