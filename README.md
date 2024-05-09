@@ -9,7 +9,7 @@
 
 ## About The Project
 
-![Product Screen Shot][product-screenshot]
+<img src="static/screenshot.png" alt="Product Screenshot" width="500"/>
 
 This project is to predict the U.S. housing price using Kaggle Housing price dataset and Ridge regression model.
 
@@ -88,7 +88,6 @@ This project is to predict the U.S. housing price using Kaggle Housing price dat
 [license-url]: https://github.com/2starwook/HackKU-2024-LOOH/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/seonguk-isaac-lee/
-[product-screenshot]: static/screenshot.png
 
 [Flask.js]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
 [Flask-url]: https://flask.palletsprojects.com
