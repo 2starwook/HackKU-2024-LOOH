@@ -9,7 +9,9 @@
 
 ## About The Project
 
-<img src="static/screenshot.png" alt="Product Screenshot" width="500"/>
+<p align="center">
+   <img src="static/screenshot.png" alt="Product Screenshot" width="500"/>
+</p>
 
 This project is to predict the U.S. housing price using Kaggle Housing price dataset and Ridge regression model.
 
