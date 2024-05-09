@@ -3,10 +3,19 @@
 ## About The Project
 This project is to predict the U.S. housing price using Kaggle Housing price dataset and Ridge regression model.
 
-## Dependency
+### Built with
+* [![Flask][Flask.js]][Flask-url]
+* [![React][React.js]][React-url]
+* [![scikit][scikit.js]][scikit-url]
+* [![TypeScript][TypeScript.js]][TypeScript-url]
+* [![Next][Next.js]][Next-url]
+* [![Tailwind][Tailwind.js]][Tailwind-url]
+
+### Dependency
 - Python: 3.9.18
 
-## How to set up / initiate backend (Mac)
+## Getting Started
+### How to set up / initiate backend (Mac)
 
 1. Create a virtual environment
    ```
@@ -26,7 +35,7 @@ This project is to predict the U.S. housing price using Kaggle Housing price dat
     ```
 
 
-## Local Dev Environment Setup (Mac)
+### Local Dev Environment Setup (Mac)
 
 1. Install Node Packages
 
@@ -55,3 +64,17 @@ This project is to predict the U.S. housing price using Kaggle Housing price dat
 ## Reference
 - [Kaggle: Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset)
 - [Kaggle: USA Real Estate Dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Flask.js]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
+[Flask-url]: https://flask.palletsprojects.com
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org
+[scikit.js]: https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white
+[scikit-url]: https://scikit-learn.org
+[TypeScript.js]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[TypeScript-url]: https://www.typescriptlang.org
+[Tailwind.js]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Tailwind-url]: https://tailwindcss.com
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
