@@ -1,5 +1,8 @@
 # HackKU2024
 
+## About The Project
+This project is to predict the U.S. housing price using Kaggle Housing price dataset and Ridge regression model.
+
 ## Dependency
 - Python: 3.9.18
 
