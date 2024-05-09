@@ -34,7 +34,7 @@ def predict():
         mainroad = request.args.get('mainroad', type=int)
         guestroom = request.args.get('guestroom', type=int)
         basement = request.args.get('basement', type=int)
-        hotwaterheating = request.args.get('hotwaterheating', type=int)
+        hotwater = request.args.get('hotwater', type=int)
         airconditioning = request.args.get('airconditioning', type=int)
         parking = request.args.get('parking', type=int)
     except ValueError:
@@ -42,7 +42,7 @@ def predict():
         pass
     predicted_price = model.predict(np.reshape([
         bedrooms, bathrooms, stories, mainroad, mainroad, guestroom, basement, 
-        hotwaterheating, airconditioning, parking
+        hotwater, airconditioning, parking
     ], (-1, 10)))
     data = {
         'price': predicted_price[0]
