@@ -31,7 +31,7 @@ This project is to predict the U.S. housing price using Kaggle Housing price dat
 
 1. Create a virtual environment
    ```
-   python -m venv <name of virtual environment>
+   python3.9 -m venv <name of virtual environment>
    ```
 2. Activate virtual environment
    ```
@@ -43,7 +43,7 @@ This project is to predict the U.S. housing price using Kaggle Housing price dat
     ```
 4. Run backend
     ```
-    python main.py
+    python3.9 main.py
     ```
 
 
